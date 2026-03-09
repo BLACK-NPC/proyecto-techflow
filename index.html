@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Gadgets y Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>TechFlow</h1>
+        <p class="header__subtitle">Tu fuente de tecnología e innovación</p>
+    </header>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="menu">
+        <a href="#inicio" class="menu__item menu__item--activo">Inicio</a>
+        <a href="#productos" class="menu__item">Productos</a>
+        <a href="#articulos" class="menu__item">Artículos</a>
+        <a href="#contacto" class="menu__item">Contacto</a>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="main">
+
+        <!-- SECCIÓN 1: INICIO -->
+        <section id="inicio" class="seccion seccion--hero">
+            <h2>Bienvenido a TechFlow</h2>
+            <p>Descubre los gadgets más innovadores del mercado y mantente actualizado con las últimas tendencias tecnológicas.</p>
+            <p>Nuestro equipo de expertos te brinda análisis detallados, reseñas honestas y guías de compra para que tomes las mejores decisiones.</p>
+        </section>
+
+        <!-- SECCIÓN 2: PRODUCTOS DESTACADOS -->
+        <section id="productos" class="seccion seccion--productos">
+            <h2>Productos Destacados</h2>
+            
+            <div class="contenedor-productos">
+                <article class="tarjeta">
+                    <h3>Auriculares Inalámbricos</h3>
+                    <p>Sonido de alta calidad con cancelación de ruido activa.</p>
+                    <p class="tarjeta__precio">$299.99</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Smartwatch Pro</h3>
+                    <p>Monitor tu salud y actividad física en tiempo real.</p>
+                    <p class="tarjeta__precio">$199.99</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Cámara Digital 4K</h3>
+                    <p>Captura momentos con resolución ultra HD y estabilización.</p>
+                    <p class="tarjeta__precio">$899.99</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: ARTÍCULOS -->
+        <section id="articulos" class="seccion">
+            <h2>Últimos Artículos</h2>
+
+            <article class="blog-post">
+                <h3>¿Cuál es el mejor teléfono inteligente en 2026?</h3>
+                <p class="blog-post__fecha">Publicado: 5 de Marzo, 2026</p>
+                <p>En este análisis profundo, comparamos los mejores modelos del mercado actual. Evaluamos rendimiento, cámara, duración de batería y precio para ayudarte a elegir.</p>
+                <a href="#" class="blog-post__link">Leer más →</a>
+            </article>
+
+            <article class="blog-post">
+                <h3>5 Gadgets que cambiarán tu hogar inteligente</h3>
+                <p class="blog-post__fecha">Publicado: 2 de Marzo, 2026</p>
+                <p>La domótica está revolucionando nuestras casas. Descubre los 5 dispositivos imprescindibles para convertir tu hogar en un espacio inteligente y conectado.</p>
+                <a href="#" class="blog-post__link">Leer más →</a>
+            </article>
+
+            <article class="blog-post">
+                <h3>Guía completa: Cómo elegir una laptop gaming</h3>
+                <p class="blog-post__fecha">Publicado: 28 de Febrero, 2026</p>
+                <p>¿Buscas una laptop para gaming? Te explicamos los componentes clave a considerar: procesador, tarjeta gráfica, RAM, almacenamiento y pantalla.</p>
+                <a href="#" class="blog-post__link">Leer más →</a>
+            </article>
+        </section>
+
+        <!-- SECCIÓN 4: CONTACTO -->
+        <section id="contacto" class="seccion">
+            <h2>Ponte en Contacto</h2>
+            <p>¿Preguntas o sugerencias? Nos encantaría saber de ti.</p>
+            <form class="formulario">
+                <input type="text" placeholder="Tu nombre" class="formulario__input" required>
+                <input type="email" placeholder="Tu correo" class="formulario__input" required>
+                <textarea placeholder="Tu mensaje" class="formulario__textarea" rows="5" required></textarea>
+                <button type="submit" class="formulario__boton">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="widget">
+            <h3>Categorías</h3>
+            <ul class="widget__lista">
+                <li><a href="#">Smartphones</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Hogar Inteligente</a></li>
+                <li><a href="#">Gaming</a></li>
+            </ul>
+        </div>
+
+        <div class="widget">
+            <h3>Suscríbete</h3>
+            <p>Recibe nuestros últimos artículos en tu correo.</p>
+            <input type="email" placeholder="Tu correo" class="widget__input">
+            <button class="widget__boton">Suscribirse</button>
+        </div>
+    </aside>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 TechFlow. Todos los derechos reservados.</p>
+        <p>Hecho con ❤️ por tu equipo de tecnología</p>
+    </footer>
+
+</body>
+</html>
+<!-- Actualización: BEM, Position y mejoras finales -->
